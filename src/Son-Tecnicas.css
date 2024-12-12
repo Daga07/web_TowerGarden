@@ -1,0 +1,50 @@
+.Container_Son {
+    width: 90%; /* Se adapta al 90% del ancho de la pantalla */
+    max-width: 1200px; /* Límite máximo de ancho */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column; /* Los elementos se colocan uno debajo del otro */
+    padding: 20px; /* Espaciado interno */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.Titulos_QueSon {
+    font-family: 'Montserrat', sans-serif; /* Título moderno */
+    font-size: 2rem; /* Tamaño relativo */
+    color: #000000; /* Color oscuro */
+    text-align: left; /* Alineación a la izquierda */
+    margin-bottom: 5px; /* Separación con el contenido siguiente */
+    word-wrap: break-word; /* Evita desbordamiento de texto */
+}
+
+.Descripcion_Son {
+    font-family: 'Roboto', sans-serif; /* Fuente limpia */
+    font-size: 1rem; /* Tamaño dinámico, ajustado para pantallas pequeñas */
+    color: #333; /* Color oscuro para mejor legibilidad */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: justify; /* Justificado para un estilo profesional */
+    word-wrap: break-word; /* Manejo dinámico de texto largo */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.Titulos_Tecnicas {
+    font-family: 'Montserrat', sans-serif; /* Título moderno */
+    font-size: 1.6rem; /* Tamaño relativo */
+    color: #1abf88; /* Color oscuro */
+    text-align: left; /* Alineación a la izquierda */   
+    word-wrap: break-word; /* Evita desbordamiento de texto */
+    margin-top: 0%;
+}
+
+.Descripcion_Tecnicas {
+    font-family: 'Roboto', sans-serif; /* Fuente limpia */
+    font-size: 1rem; /* Tamaño dinámico, ajustado para pantallas pequeñas */
+    color: #333; /* Color oscuro para mejor legibilidad */
+    line-height: 1.5; /* Espaciado entre líneas */
+    text-align: justify; /* Justificado para un estilo profesional */
+    word-wrap: break-word; /* Manejo dinámico de texto largo */
+    margin-top: 0;
+}

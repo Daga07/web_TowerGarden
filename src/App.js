@@ -1,5 +1,6 @@
 import './App.css';
 import Cultivo from './Cultivo';
+import Son_Tecnicas from './Son-Tecnicas';
 import Logo from './Logo';
 import Titulo from './Titulo';
 
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
         <Logo/> 
         <Titulo/>
-        <Cultivo/>
+        <Son_Tecnicas/>
 
       </header>
     </div>
