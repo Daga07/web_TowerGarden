@@ -1,6 +1,6 @@
 .Container_Son {
     width: 90%; /* Se adapta al 90% del ancho de la pantalla */
-    max-width: 1200px; /* Límite máximo de ancho */
+    max-width: 1100px; /* Límite máximo de ancho */
     height: auto; /* Ajusta la altura automáticamente según el contenido */
     background-color: rgb(204, 204, 204);
     display: flex;
