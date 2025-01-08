@@ -1,11 +1,11 @@
 .Contitulo{
-    padding: 5px;
     text-align: center;
-
+    width: 750px;
+    height: 300px;
 }
 .TexTitulo{
-    font-family: 'Lobster', cursive; /* Usa la fuente Lobster para un estilo decorativo */
-    font-size: 1.5rem;
-    color: #ff6347;
+    font-family: 'Montserrat', sans-serif; /* Usa la fuente Lobster para un estilo decorativo */
+    font-size: 1.9rem;
+    color: #0aa84a;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }

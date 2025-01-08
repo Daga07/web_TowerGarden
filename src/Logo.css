@@ -1,21 +1,24 @@
 .Container {
-        width: 200px;
-        height: 200px;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;    
-        border: 0.1px solid rgb(255, 0, 0); /* Ajuste para mostrar el borde */
-       /* transition: border-color 2s cubic-bezier(0.075, 0.82, 0.165, 1); /* Duración de 0.3s */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 15%; /* Hace que el contenedor ocupe el 100% del ancho de la pantalla */
+    height: 300px; /* Altura ajustable */
+    padding: 10px; /* Agregar algo de relleno */
 }
 
-.LogoImage {
-    width: 200px;
-/* animation: moveSideToSide 10s ease-in-out infinite;*/
+.carrusel {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    max-width: 800px; /* Limita el ancho máximo para pantallas grandes */
 }
 
-/*@keyframes moveSideToSide {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(20px); }
-    40% { transform: translateX(0); }
-}*/
+.carrusel-images img {
+    width: auto; /* Se adapta al ancho del contenedor */
+    height: 200px; /* Mantiene la relación de aspecto */
+    max-width: 700px; /* No sobrepasa este valor, si la pantalla es más grande */
+    display: flex;
+    border-radius: 8px;
+    transition: opacity 1s ease-in-out; /* Para transiciones suaves */
+}

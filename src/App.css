@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   max-height: 100vh; /* Limita la altura para activar el scroll si es necesario */
   display: flex;
